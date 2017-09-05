@@ -141,6 +141,11 @@ ul li {
 .section {
   padding: 70px 0;
 }
+.title-section{
+
+
+
+}
 
 .section-title {
   color: #db960d;
@@ -419,6 +424,13 @@ width: 50% ;
 /* 
  * 6.1 Section: About 
  */
+ .title-section {
+
+
+margin-left: 200px ;
+ 
+
+ }
 .about .section-title {
   margin: 0 0 25px;
 }
@@ -780,7 +792,7 @@ html,body{
 
 .word{
   display:block;
-  text-align:justify;
+  text-align:center;
   font-family: "BenchNine";
   line-height:0.8;
   text-transform:uppercase;

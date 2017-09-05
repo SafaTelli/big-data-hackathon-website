@@ -175,6 +175,15 @@ width: 50% ;
   text-align: left;
 
 }
+.section-title-schedule {
+  color: #db960d;
+  letter-spacing: 1px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-family: 'Advent Pro', sans-serif;
+  text-align: left;
+
+}
 
 
 /* 
@@ -828,3 +837,5 @@ html,body{
   position:relative;
   top:1px;
 }
+
+

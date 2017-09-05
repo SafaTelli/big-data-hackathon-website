@@ -1,7 +1,7 @@
 /* 
  * 1. Google Font
  */
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro:700');
 /* 
  * 2.0 Global Style
@@ -150,6 +150,13 @@ ul li {
   font-family: 'Advent Pro', sans-serif;
   text-align: center;
 }
+.section-inscription{
+margin : auto ;
+width: 50% ;
+  text-align: left;
+
+
+}
 .egov-title {
  
   
@@ -157,6 +164,16 @@ ul li {
  
   font-family: 'Roboto', sans-serif;
  
+}
+.section-title-inscription {
+
+  color: #db960d;
+  letter-spacing: 1px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-family: 'Advent Pro', sans-serif;
+  text-align: left;
+
 }
 
 

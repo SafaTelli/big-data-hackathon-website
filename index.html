@@ -8,14 +8,16 @@
     <title>Big data hackathon</title>
 
     <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    
 </head>
 
 <body data-spy="scroll" data-target="#site-nav">
+<div class="jawn"></div>
     <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
         <div class="container">
             <div class="navbar-header">
@@ -58,83 +60,105 @@
         </div><!-- /.container -->
     </nav>
 
-    <header id="site-header" class="site-header valign-center"> 
-        <div class="intro">
-
- </br> </br> </br> </br> </br> </br> </br> 
-             <h3><strong> <span class="word word5"> TUNISIA BIG DATA HACKATHON - 2017</span></strong></h3>
-             <h2><div class="word word5">07 & 08 Octobre 2017, <br /><span>Lieu</span></div> </h2>
+    <header id="site-header" class="site-header valign-center" > 
+        <div class="intro" style="padding: 80px !important" >
+        <div class="row">
+            <div class="col-md-9 col-md-offset-3">
+                <div class="row">
+                    </br>
+                </br>
+                </br>
+                </br>
+                    <h3><strong> <span class="word word5"> TUNISIA BIG DATA HACKATHON - 2017</span></strong></h3>
+                </div>
+                <div class="row">
+                    </br>
+                    <div class="col-md-offset-1"> 
+                        <h2><div class="word word5">07 & 08 Octobre 2017 </div> </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    </br>
+                    <div class="col-md-offset-2">
+                            <h4><div class="word word5">Lieu : EXAMPLE LIEU </div> </h4>
+                    </div>
+                </div>
+            </div>
             
-           
-            
-           
-            
-            <a class="myButton" href="https://docs.google.com/forms/d/e/1FAIpQLSfK5_0iWlM5MYvzek3u7vAPVsSasUx0VuU1h_AHAq3ZBbyssg/viewform?embedded=true">S'inscrire</a>
-           
-           </br> </br> </br> </br> </br> </br> </br> 
-           
-            <section id="count" >
-      
-           
-<div class="countdown countdown-container container">
-    <div class="clock row">
-        <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-                <div class="inner">
-                    <div id="canvas_days" class="clock-canvas"></div>
+        </div>
+            <div class="row">
 
-                    <div class="text">
-                        <p class="val">0</p>
-                        <p class="type-days type-time">JOURS</p>
-                    </div><!-- /.text -->
-                </div><!-- /.inner -->
-            </div><!-- /.wrap -->
-        </div><!-- /.clock-item -->
+                    <div class="container">
+                        <a class="myButton" href="https://docs.google.com/forms/d/e/1FAIpQLSfK5_0iWlM5MYvzek3u7vAPVsSasUx0VuU1h_AHAq3ZBbyssg/viewform?embedded=true">S'inscrire</a>
+                    </div>
 
-        <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-                <div class="inner">
-                    <div id="canvas_hours" class="clock-canvas"></div>
-
-                    <div class="text">
-                        <p class="val">0</p>
-                        <p class="type-hours type-time">HEURES</p>
-                    </div><!-- /.text -->
-                </div><!-- /.inner -->
-            </div><!-- /.wrap -->
-        </div><!-- /.clock-item -->
-
-        <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-                <div class="inner">
-                    <div id="canvas_minutes" class="clock-canvas"></div>
-
-                    <div class="text">
-                        <p class="val">0</p>
-                        <p class="type-minutes type-time">MINUTES</p>
-                    </div><!-- /.text -->
-                </div><!-- /.inner -->
-            </div><!-- /.wrap -->
-        </div><!-- /.clock-item -->
-
-        <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
-            <div class="wrap">
-                <div class="inner">
-                    <div id="canvas_seconds" class="clock-canvas"></div>
-
-                    <div class="text">
-                        <p class="val">0</p>
-                        <p class="type-seconds type-time">SECONDEs</p>
-                    </div><!-- /.text -->
-                </div><!-- /.inner -->
-            </div><!-- /.wrap -->
-        </div><!-- /.clock-item -->
-    </div><!-- /.clock -->
-</div><!-- /.countdown-wrapper -->
- 
-           
-    </section>
-        
+            </div>
+            <div class="row" >
+                    <section id="count" >     
+                        <div class="countdown ">
+                            <div class="container">
+                                <div class="clock row" >
+                                    <div class="clock-item clock-days col-sm-6 col-md-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas_days" class="clock-canvas"></div>
+                            
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-days type-time">JOURS</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+                            
+                                    <div class="clock-item clock-hours col-sm-6 col-md-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas_hours" class="clock-canvas"></div>
+                            
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-hours type-time">HEURES</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+                            
+                                    <div class="clock-item clock-minutes  col-sm-6 col-md-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas_minutes" class="clock-canvas"></div>
+                            
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-minutes type-time">MINUTES</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+                            
+                                    <div class="clock-item clock-seconds  col-sm-6 col-md-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas_seconds" class="clock-canvas"></div>
+                            
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-seconds type-time">SECONDEs</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+                                        
+                                
+                                </div><!-- /.clock -->
+                            </div>
+                        </div><!-- /.countdown-wrapper -->
+                           
+                                     
+                    </section>
+                                  
+                 </div>
         </div>
      
 
@@ -1024,10 +1048,10 @@ administrative par l’usage des technologies du numérique.</p></h3>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-    <script src="assets/js/main.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="assets/js/kinetic.js"></script>
-<script type="text/javascript" src="jquery.final-countdown.js"></script>
+
+    <script type="text/javascript" src="jquery.final-countdown.js"></script>
     <script type="text/javascript">  
 
 
@@ -1037,63 +1061,117 @@ administrative par l’usage des technologies du numérique.</p></h3>
         $('.countdown').final_countdown({
             'start': 1362139200,
             'end': 1365076800,
-            'now': 1362139200,
+            'now': 1363000000,
                 selectors: {
 
-    value_seconds: '.clock-seconds .val',
+                value_seconds: '.clock-seconds .val',
 
-    canvas_seconds: 'canvas_seconds',
+                canvas_seconds: 'canvas_seconds',
 
-    value_minutes: '.clock-minutes .val',
+                value_minutes: '.clock-minutes .val',
 
-    canvas_minutes: 'canvas_minutes',
+                canvas_minutes: 'canvas_minutes',
 
-    value_hours: '.clock-hours .val',
+                value_hours: '.clock-hours .val',
 
-    canvas_hours: 'canvas_hours',
+                canvas_hours: 'canvas_hours',
 
-    value_days: '.clock-days .val',
+                value_days: '.clock-days .val',
 
-    canvas_days: 'canvas_days'
+                canvas_days: 'canvas_days'
 
-},
-seconds: {
+                },
+    seconds: {
 
     borderColor: '#7995D5',
 
     borderWidth: '6'
 
-},
+    },
 
-minutes: {
+    minutes: {
 
     borderColor: '#ACC742',
 
     borderWidth: '6'
 
-},
+    },
 
-hours: {
+    hours: {
 
     borderColor: '#ECEFCB',
 
     borderWidth: '6'
 
-},
+    },
 
-days: {
+    days: {
 
     borderColor: '#FF9900',
 
     borderWidth: '6'
 
-}}, function() {
-
-// Finish callback
-
-      
-        });
+    }});
     });
-</script>
+    $( window ).resize(function() {
+        'use strict';
+        
+        $('.countdown').final_countdown({
+            'start': 1362139200,
+            'end': 1365076800,
+            'now': 1363000000,
+                selectors: {
+
+                value_seconds: '.clock-seconds .val',
+
+                canvas_seconds: 'canvas_seconds',
+
+                value_minutes: '.clock-minutes .val',
+
+                canvas_minutes: 'canvas_minutes',
+
+                value_hours: '.clock-hours .val',
+
+                canvas_hours: 'canvas_hours',
+
+                value_days: '.clock-days .val',
+
+                canvas_days: 'canvas_days'
+
+                },
+    seconds: {
+
+    borderColor: '#7995D5',
+
+    borderWidth: '6'
+
+    },
+
+    minutes: {
+
+    borderColor: '#ACC742',
+
+    borderWidth: '6'
+
+    },
+
+    hours: {
+
+    borderColor: '#ECEFCB',
+
+    borderWidth: '6'
+
+    },
+
+    days: {
+
+    borderColor: '#FF9900',
+
+    borderWidth: '6'
+
+    }});
+});
+    </script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

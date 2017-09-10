@@ -1,4 +1,6 @@
-
+.timeline-title {
+     color: #2c3e50;
+}
 
 body {
     color: #768390;
@@ -47,6 +49,7 @@ a {
 }
 
 .example-title {
+    color: #2c3e50;
     text-align: center;
     margin-bottom: 60px;
     padding: 3em 0;
@@ -172,6 +175,8 @@ a {
         }
         .timeline-title {
             margin: 0;
+             color: #2c3e50;
+             text-align: center ;
         }
     }
 

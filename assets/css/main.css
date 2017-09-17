@@ -1344,6 +1344,49 @@ hr {
 position: center ;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+
+
+table {
+  background: #012B39;
+  border-radius: 0.25em;
+
+  margin: 1em;
+  border-collapse:separate; 
+  border-spacing: 2em 2em;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #12162B;
+  font-size: 2em;
+  font-weight: 600;
+  
+  text-align: center;
+  margin-left: 150px ;
+}
+td {
+  color: #12162B;
+  font-weight: 400;
+  padding: 100px;
+  margin-left: 100px ;
+  margin-top: 50px;
+  font-family: Roboto;
+  font-size: 1.25em;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover td {
+ 
+  color: #0076a3;
+  
+  }
+
+
 
 
 

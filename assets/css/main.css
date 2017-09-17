@@ -575,9 +575,9 @@ margin-left: 200px ;
 }
 .partner .partner-box {
   display: block;
-  opacity: 0.3;
-  height: 150px;
-  width: 150px;
+  opacity: 0.7;
+  height: 200px;
+  width: 200px;
   margin: 25px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
@@ -586,17 +586,17 @@ margin-left: 200px ;
   opacity: 1;
 }
 .partner .partner-box-1 {
-  background: url(../images/partner/CAPJC.jpg) no-repeat center center/contain;
+  background: url(../images/partner/tunegov.png) no-repeat center center/contain;
   width: 150 ;
   height: 150 ;
 }
 .partner .partner-box-2 {
-  background: url(../images/partner/express-fm.jpg) no-repeat center center/contain;
+  background: url(../images/partner/fried.jpg) no-repeat center center/contain;
 width: 150 ;
   height: 150 ;
 }
 .partner .partner-box-3 {
-  background: url(../images/partner/friedNau.jpg) no-repeat center center/contain;
+  background: url(../images/partner/tuntel.png) no-repeat center center/contain;
 width: 150 ;
   height: 150 ;
 }
@@ -606,17 +606,17 @@ width: 150 ;
   height: 150 ;
 }
 .partner .partner-box-5 {
-  background: url(../images/partner/RTCI.jpg) no-repeat center center/contain;
+  background: url(../images/partner/entreprise.jpg) no-repeat center center/contain;
 width: 150 ;
   height: 150 ;
 }
 .partner .partner-box-6 {
-  background: url(../images/partner/shems-fm.jpg) no-repeat center center/contain;
+  background: url(../images/partner/it.png) no-repeat center center/contain;
 width: 150 ;
   height: 150 ;
 }
 .partner .partner-box-7 {
-  background: url(../images/partner/tunegov.jpg) no-repeat center center/contain;
+  background: url(../images/partner/monastir.png) no-repeat center center/contain;
 width: 150 ;
   height: 150 ;}
 .partner .partner-box-8 {

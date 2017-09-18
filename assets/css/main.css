@@ -22,7 +22,13 @@ body {
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
+.timeline-title-day{
 
+  font-family: 'Advent Pro' ;
+}
+.cloture-title{
+  margin-left: 15px ;
+}
 a {
   color: #000;
 }
@@ -748,8 +754,8 @@ html {
 }
 
 .img-circle{
-height: 70px;
-width: 70px ;
+height: 50px;
+width: 50px ;
 
 }
 .img-responsive{

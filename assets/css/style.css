@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:700');
 body {
   color: #768390;
   background: #FFF;
@@ -84,12 +86,13 @@ a:hover {
 
 /*----- TIMELINE INFO -----*/
 .timeline-info {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 3px;
   margin: 0 0 .5em 0;
   text-transform: uppercase;
   white-space: nowrap;
+  font-family: 'Advent Pro' ;
 }
 
 /*----- TIMELINE MARKER -----*/
@@ -166,7 +169,7 @@ a:hover {
   top: auto;
 }
 .period .timeline-content {
-  padding: 40px 0 70px;
+  padding: 30px 0 70px;
 }
 .period .timeline-title {
   margin: 0;
@@ -211,7 +214,7 @@ a:hover {
 /*----------------------------------------------
     MOD: TIMELINE CENTERED
 ----------------------------------------------*/
-@media (min-width: 992px) {
+@media (min-width: 999px) {
   .timeline-centered,
   .timeline-centered .timeline-item,
   .timeline-centered .timeline-info,
@@ -222,7 +225,7 @@ a:hover {
     padding: 0;
   }
   .timeline-centered .timeline-item {
-    padding-bottom: 40px;
+   
     overflow: hidden;
   }
   .timeline-centered .timeline-marker {
@@ -233,6 +236,7 @@ a:hover {
   .timeline-centered .timeline-info,
   .timeline-centered .timeline-content {
     width: 50%;
+    
   }
   .timeline-centered > .timeline-item:nth-child(odd) .timeline-info {
     float: left;
@@ -270,6 +274,11 @@ a:hover {
   }
   .timeline-centered .period .timeline-title {
     left: auto;
+    padding-bottom: 10px;
+    color: #2c3e50 ;
+  }
+  .timeline-info{
+    font-family: 'Advent-Pro';
   }
 }
 

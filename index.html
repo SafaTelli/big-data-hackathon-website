@@ -379,6 +379,12 @@ Les équipes sont libres de choisir tout type de ‘produit data’ pourvu qu’
                        
                     </div>
                 </li>
+				
+				<style>
+				#name>* {
+    display:none;
+}
+				</style>
                 <li class="timeline-item">
                     <div class="timeline-info">
                         <span>10h-10h30</span>
@@ -386,17 +392,27 @@ Les équipes sont libres de choisir tout type de ‘produit data’ pourvu qu’
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <div class="row">
-                            <div class="col-md-3"><h4 class="timeline-title">Mot d'ouverture</h4> </div>
+                           
                              
-                             <div class="col-md-9"> <img src="assets/images/speakers/sp-1.jpeg" alt="" class="img-circle">
-                             <img src="assets/images/speakers/sp-11.jpg" alt="" class="img-circle">
-                             <img src="assets/images/speakers/sp-2.jpg" alt="" class="img-circle">
+                             <div  id="imgs61"class="col-md-9"> 
+							 <img src="assets/images/speakers/sp-1.jpeg" alt="" class="img-circle " data-filter=".a13">
+                             <img src="assets/images/speakers/sp-11.jpg" alt="" class="img-circle" data-filter=".a14">
+                             <img src="assets/images/speakers/sp-2.jpg" alt="" class="img-circle" data-filter=".a15">
                              </div>
+                              <div class="col-md-3"><h4 class="timeline-title">Mot d'ouverture</h4> </div>
                             
-                            
+
                          
                         </div>
-                       
+                        <div class="row" style="background:none ;margin-right:50px;"><div id="name" class="col-md-12">
+                                <p class="a13" >Ralf Erbel (F. Friedrich Naumann)</p>
+                                <p class="a14">Chiheb Bouchnak(eGov society)</p>
+                                <p class="a15">Maher Kallel(Carthage Business Angels)</p>
+
+
+
+						</div>
+                        </div>
                         
                        
                     </div>
@@ -1161,15 +1177,15 @@ Les équipes sont libres de choisir tout type de ‘produit data’ pourvu qu’
                
             </div>
 
-            <div class="row">
+          <div class="row">
                 <div class="col-sm-4">
-                    <a class="partner-box partner-box-5"></a>
+                    <a class="partner-box partner-box-5" style="width:100px; header:100px"></a>
                 </div>
                 <div class="col-sm-4">
-                    <a class="partner-box partner-box-6"></a>
+                    <a class="partner-box partner-box-6"style="width:100px; header:100px"></a>
                 </div>
                 <div class="col-sm-4">
-                    <a class="partner-box partner-box-7"></a>
+                    <a class="partner-box partner-box-7" style="width:100px; header:100px"></a>
                 </div>
                 
             </div>   
@@ -1454,5 +1470,11 @@ Les équipes sont libres de choisir tout type de ‘produit data’ pourvu qu’
 });
     </script>
     <script src="assets/js/main.js"></script>
+	                           <script>
+				$("#imgs61").find("img").hover(function () {
+    $("#name>*").hide()
+        .filter($(this).data("filter")).show()
+})
+				</script>
 </body>
 </html>

@@ -587,11 +587,14 @@ margin-left: 200px ;
 .partner {
   background-color: #f8f8f8;
 }
+#name>* {
+    display:none;
+}
 .partner .partner-box {
   display: block;
   opacity: 0.7;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   margin: 25px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;

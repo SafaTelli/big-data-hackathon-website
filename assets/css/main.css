@@ -26,6 +26,14 @@ body {
 
   font-family: 'Advent Pro' ;
 }
+.timeline-info{
+  font-family: 'Advent Pro' ; 
+}
+.timeline-title {
+
+   font-family: 'Roboto' ; 
+
+}
 .cloture-title{
   margin-left: 15px ;
 }

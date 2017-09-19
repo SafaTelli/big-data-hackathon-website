@@ -606,18 +606,26 @@ margin-left: 200px ;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
 }
+.partner .partner-boxx {
+  display: block;
+  opacity: 0.7;
+  height: 250px;
+  width: 250px;
+  margin: 25px auto;
+  -webkit-transition: 0.5s all linear;
+          transition: 0.5s all linear;
+}
 .partner .partner-box:hover {
   opacity: 1;
 }
 .partner .partner-box-1 {
   background: url(../images/partner/tunegov.png) no-repeat center center/contain;
-  width: 150 ;
-  height: 150 ;
+ 
 }
-.partner .partner-box-2 {
+.partner .partner-box-0 {
   background: url(../images/partner/fried.jpg) no-repeat center center/contain;
-width: 150 ;
-  height: 150 ;
+width: 250 ;
+height: 300;
 }
 .partner .partner-box-3 {
   background: url(../images/partner/tuntel.png) no-repeat center center/contain;

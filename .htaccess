@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Tunisia Big Data Hackathon\'s Site under construction..."
+AuthUserFile /var/www/vhosts/vps-1000425-777.cp.hosting.topnet.tn/bigdatahackathon.egovsociety.tn/.htpasswd
+Require valid-user

@@ -665,6 +665,20 @@ width: 150 ;
 width: 150 ;
   height: 150 ;
 }
+.partner .partner-box-a {
+  background: url(../images/partner/epi.jpg) no-repeat center center/contain;
+
+}
+.partner .partner-box-b {
+  background: url(../images/partner/targa.jpg) no-repeat center center/contain;
+width: 150 ;
+  height: 150 ;
+}
+.partner .partner-box-c {
+  background: url(../images/partner/carth.png) no-repeat center center/contain;
+width: 150 ;
+  height: 150 ;
+}
 
 /* 
  * 6.8 Section: FAQ

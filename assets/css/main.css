@@ -931,13 +931,14 @@ html,body{
   letter-spacing:0px;
 }
 
-.word5, .word6{
+.word5, .word6, .word4{
   color:#F0A80D;
   font-family: 'Advent Pro', sans-serif;
 
 }
 
 .word5{font-size:2.1em}
+.word4{font-size:1.5em}
 .word6{font-size:6em}
 
 .myButton {

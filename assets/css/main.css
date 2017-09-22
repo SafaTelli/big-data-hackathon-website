@@ -408,9 +408,10 @@ width: 50% ;
   background-color: #fff;
 }
 
-.navbar-solid {
+.navbar-solid 
+{
 
- background: #12162B !important;
+ background: #2c3e50 !important;
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;

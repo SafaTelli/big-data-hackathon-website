@@ -1,14 +1,14 @@
 
                                         $(document).ready(function() {
-                                           
-                                          
-                                            $('#countdown4').ClassyCountdown({
-                                                 end: '1507419189',
+
+                                          var endDate=new Date(2017,09,07,09,00,00,00);
+                                          $('#countdown4').ClassyCountdown({
+                                                end: Math.round(endDate.getTime()/1000),
                                                 now: Math.round(new Date().getTime()/1000),
-                                              
+
                                                 labels: true,
                                                 style: {
-                                                    
+
                                                     element: "",
                                                     textResponsive: .5,
                                                     days: {
@@ -49,6 +49,5 @@
                                                     console.log("Time out!");
                                                 }
                                             });
-                                          
+
                                         });
-                                   
